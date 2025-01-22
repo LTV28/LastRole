@@ -1,13 +1,13 @@
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
     Swal.fire({
-        title: 'Em có muốn nghe nhạc nền ?',
+        title: 'cậu có muốn nghe nhạc nền ?',
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonText: 'Âu kê',
-        cancelButtonText: 'No',
+        cancelButtonText: 'No (đừng:<)',
     }).then((result) => {
         if (result.isConfirmed) {
             document.querySelector('.song').play();
