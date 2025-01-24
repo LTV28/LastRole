@@ -58,7 +58,7 @@ body {
 }
 
 .one {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
 }
 
 .two {
@@ -96,6 +96,11 @@ body {
   padding: .5rem 1rem;
   position: absolute;
   right: 5px;
+}
+
+.fake-btn:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 2px rgb(255, 111, 0)) drop-shadow(0 0 2px rgb(250, 79, 0));
 }
 
 .five p {
@@ -319,4 +324,9 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
+}
+
+.profile-picture:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px rgb(254, 46, 161)) drop-shadow(0 0 10px rgb(251, 57, 141));
 }
