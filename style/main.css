@@ -33,8 +33,7 @@ html {
 body {
   font-family: 'MJ Amelia', sans-serif;
   margin: 0;
-  background-color: rgb(255, 64, 96);
-  filter: drop-shadow(0 0 7px white) drop-shadow(0 0 4px white);
+  background-color: white;
 }
 
 .song {
@@ -237,6 +236,7 @@ body {
   font-size: 3em;
   margin: 0;
   text-transform: uppercase;
+  filter: drop-shadow(0 0 7px rgb(0, 251, 255)) drop-shadow(0 0 4px white);
 }
 
 .wish h5 {
